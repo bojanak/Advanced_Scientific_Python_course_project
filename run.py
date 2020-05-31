@@ -1,10 +1,10 @@
 import numpy as np
-from modules import animate, make_striped_matrix
+from modules import animate, cross_shaped
 
 size = 32
-A = np.random.randint(high=2, low=0, size=(size,size))
+#A = np.random.randint(high=2, low=0, size=(size,size))
 
-#A = make_striped_matrix(size)
+A = cross_shaped(size)
 
 
 animate(A)

@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from itertools import product
 
 
-def make_striped_matrix(size, thickness = 6):
+def cross_shaped(size, thickness = 2):
     
     """Generates a striped matrix. Default stripe thickness = 3"""
 
