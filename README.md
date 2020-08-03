@@ -4,11 +4,8 @@ This is a repository with the code for the final project for the Advanced Scient
 
 ## Project: Conway's Game of Life
 
-This is a "trial" version of the program.
+Instructions for running:
 
-The modules that it uses are in the "modules.py" file.
-Other dependencies: numpy and matplotlib.
-
-
-It should be run from a terminal window, by running the "run.py" script.
-By default, the seed is a random matrix. The seed can be replaced by a cross-shaped matrix by editing the "run.py" file.
+The animation is initialized by running the "run.py" file. 
+By default, the seed is a cross-shaped matrix. The seed can be replaced by a random matrix by editing the "run.py" file.
+The module called modules.py contains all the functions necessary for the program to run.

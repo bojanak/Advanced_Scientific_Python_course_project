@@ -1,10 +1,10 @@
-import numpy as np
-from modules import animate, cross_shaped
-
-size = 32
-#A = np.random.randint(high=2, low=0, size=(size,size))
-
-A = cross_shaped(size)
+from modules import animate
 
 
-animate(A)
+parameters = {'type': 'cross_shaped', # or 'random'   
+              'size': 32,
+              'thickness': 5, # if type = 'random', set to None or delete
+              'animate': True,
+              'n_steps': 500}
+
+outcome = animate(**parameters)
