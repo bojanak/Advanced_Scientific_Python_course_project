@@ -11,4 +11,4 @@ Instructions for running:
 
 The animation is initialized by running the "run.py" file. 
 By default, the seed is a cross-shaped matrix. The seed can be replaced by a random matrix by editing the "run.py" file.
-The module called modules.py contains all the functions necessary for the program to run.
+The module called "modules.py" contains all the functions necessary for the program to run.
